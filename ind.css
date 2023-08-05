@@ -1,0 +1,89 @@
+body {
+                    background-image: url("elec1.jpg");
+                    background-size: cover;
+                    height: 90vh;
+                    background-repeat: none;
+                    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+                    font-family: 'Aboreto', cursive;
+                    /* letter-spacing: 3px; */
+                    font-weight: bold;
+                    text-align: center;
+                    color: white;
+                }
+                
+                
+                button {
+                    border: none;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    color: white;
+                    font-weight: bold;
+                    display: block;
+                    font-size: 15px;
+                    margin: 0px auto 5px auto;
+                    width: 200px;
+                    font-family: 'Aboreto', cursive;
+                    /* margin-bottom: 5px; */
+                    border-radius: 5px;
+                }
+                h1,h2 {
+                    font-family: 'Aboreto', cursive;
+                }
+                #register-btn {
+                    background: lightgreen;
+                    border-bottom: none;
+                    color: black;
+                }
+                
+                #login-btn {
+                    background: lightblue;
+                    color: black;
+                    font-weight: bold;
+                }
+                #course-btn{
+                    background: lightyellow;
+                    color: black;
+                }
+                #rorl-el{ 
+                    /* color: black !IMPORTANT; */
+                    font-size: 20px; 
+                    color:lightblue;
+                }
+                a:link {
+                    text-decoration: none;
+                }
+                
+                .wrapper{
+                    
+                    
+                    display:flex;
+                    flex-direction: column;
+                    height: 680px;
+                    /* padding-bottom: 50px;  */
+                    /* position: absolute; */
+                    justify-content: center;
+                    align-items: center;
+                }
+                .cont{
+                    background: #040404;
+                    /* background: linear-gradient(to right,black,#,black); */
+                    padding: 20px 40px;
+                    padding-bottom: 40px;
+                    border-radius: 7px;
+                    box-shadow: 0px 0px 50px black;
+                }
+                .heading{
+                    font-size: 35px;
+                    font-weight: bold;
+                    color:#fffffc;
+                }
+                
+                #register-btn:hover{
+                    box-shadow: 0px 0px 20px #000000 inset;
+                }
+                #login-btn:hover{
+                    box-shadow: 0px 0px 20px #000000 inset;
+                }
+                #course-btn:hover{
+                    box-shadow: 0px 0px 20px #000000 inset;
+                }

@@ -1,0 +1,68 @@
+body {
+    background-image: url("elec.jpg");
+    background-size: cover;
+    height: 90vh;
+    background-repeat: none;
+    font-weight: bold;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 10px;
+    font-family: 'Aboreto', cursive;
+}
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    font-size: 15px;
+    margin: 0px auto 5px auto;
+    width: 200px;
+    font-family: 'Aboreto', cursive;
+    border-radius: 5px;
+}
+#register-btn {
+    background: lightgreen;
+    border-bottom: none;
+    color: black;
+}
+#login-btn {
+    background: lightblue;
+    color: black;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    height: 680px;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    background: #040404;
+    padding: 20px 40px;
+    padding-bottom: 40px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 50px black;
+}
+.heading{
+    font-size: 35px;
+    font-weight: bold;
+    color:#fffffc;
+}
+#register-btn:hover{
+    box-shadow: 0px 0px 20px #000000 inset;
+}
+#login-btn:hover{
+    box-shadow: 0px 0px 20px #000000 inset;
+}
